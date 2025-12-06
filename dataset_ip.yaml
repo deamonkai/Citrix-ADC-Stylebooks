@@ -1,5 +1,5 @@
 ---
-name: ip_list
+name: dataset_ip
 version: "1.0"
 namespace: com.One2Any.stylebooks
 display-name: "IP Address List"
@@ -59,4 +59,5 @@ components:
           value: str($ipaddr)
           name: $parameters.dataset + "_IP_Range"
         #  index?:
+
         #Ref: https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/12.0/configuration/policy/policydataset_value_binding/       

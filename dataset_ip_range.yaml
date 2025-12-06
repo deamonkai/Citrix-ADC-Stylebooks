@@ -1,5 +1,5 @@
 ---
-name: ip_ranges
+name: dataset_ip_ranges
 version: "1.0"
 namespace: com.One2Any.stylebooks
 display-name: "IP Address Range List"
@@ -79,4 +79,5 @@ components:
           comment?: $ip.comment
           endRange?: str($ip.endrange)
         #  index?:
+
         #Ref: https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/12.0/configuration/policy/policydataset_value_binding/       
